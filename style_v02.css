@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    width: 60%;
+    margin: 30px auto 20px auto;
+}
+
+main {
+    margin: 30px auto 20px auto;
+}
+
+.ribb {
+    background: lightgrey;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    height: 15px;
+}
+
+.main-menu {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.main-menu-item {
+    list-style-type: none;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.main-menu-item:hover {
+    color: white;
+}
+
+.basket-button {
+    border: none;
+    margin: 0 20px 0 20px;
+    background: none;
+    float: right;
+    color: red;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.basket-button:hover {
+    color: black;
+}
+
+.goods-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.goods-item {
+    border: 1px solid pink;
+    margin: 10px;
+    height: 100px;
+    float: left;
+    width: 200px;
+    border-radius: 0.5em;
+    padding: 10px 15px 10px 15px;
+}
+
+.goods-item:hover {
+    border: 1px solid red;
+}
+
+.goods-item:hover h3 {
+    color: red;
+}
+
+.goods-item:hover p {
+    color: red;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: grey;
+}
+
+p {
+    margin-top: 55px;
+    text-align: right;
+}
+
+p::after {
+    content: '.-';
+}
