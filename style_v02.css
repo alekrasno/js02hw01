@@ -79,8 +79,25 @@ main {
 }
 
 h3 {
+    display: inline;
+    /* width: 100px; */
+    /* float: left; */
     font-size: 1.2em;
     color: grey;
+}
+
+.add-2-basket-button {
+    border: none;
+    /* margin-left: 20px; */
+    background: none;
+    float: right;
+    color: grey;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.add-2-basket-button:hover {
+    color: red;
 }
 
 p {
